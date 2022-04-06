@@ -7,11 +7,29 @@ $(function(){
 
  
 
+
+
+
+      /* our blog slider */
+   $('.blog-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: $('.our-arrow-l'),
+        nextArrow: $('.our-arrow-r'),
+        dots: false,
+        speed: 300,
+        autoplay: false,
+        fade: false,
+         centerMode: true,
+         centerPadding: '0px',
+    });
+   /* our blog slider */
+
  /* banner slider */
 
     $('.banner-slider').slick({
-        prevArrow: '<p class="banner-arrow-l"><span class="banner-icons "><a href="#"><i class="fa fa-chevron-left prv-arrow"></i></a></span></p>',
-        nextArrow: '<p class="banner-arrow-r"><span class="banner-icons "><a href="#"><i class="fa fa-chevron-right nxt-arrow"></i></a></span></p>',
+        prevArrow: '<p class="banner-arrow-l"><span class="banner-icons "><a ><i class="fa fa-chevron-left prv-arrow"></i></a></span></p>',
+        nextArrow: '<p class="banner-arrow-r"><span class="banner-icons "><a ><i class="fa fa-chevron-right nxt-arrow"></i></a></span></p>',
         dots: false,
         autoplay: true,
         speed: 1000,
@@ -35,6 +53,8 @@ $(function(){
     });
  /* service slider */
 
+
+
  /* portfolio slider */
  $('.portfolio-slider').slick({
         infinite: true,
@@ -45,6 +65,8 @@ $(function(){
          
     });
  /* portfolio slider */
+
+
 
 
 
