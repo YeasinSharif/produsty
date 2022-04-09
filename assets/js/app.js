@@ -110,7 +110,8 @@ $(function () {
     centerMode: true,
     centerPadding: '0px',
     prevArrow: $('.our-arrow-l'),
-    nextArrow: $('.our-arrow-r')
+    nextArrow: $('.our-arrow-r'),
+    speed: 300
 
   });
   /* our team slider */

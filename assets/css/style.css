@@ -1365,16 +1365,16 @@ a:hover {
 
 #brand .brand-arrow-l {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 70%;
+    transform: translateY(-70%);
     z-index: 90;
     left: 2%;
 }
 
 #brand .brand-arrow-r {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 70%;
+    transform: translateY(-70%);
     z-index: 90;
     right: 2%;
 }
@@ -1709,6 +1709,7 @@ margin-top: 10px;
 #our-team {
     padding-top: 80px;
     position: relative;
+    height: 850px;
 }
 .team-info ul {
     transition: var(--transition-fast);
@@ -1764,6 +1765,7 @@ margin-top: 10px;
 .team-items {
     margin: 0 15px;
     padding-top: 40px;
+    cursor: pointer;
 }
 .team-info-animate {
     position: absolute;
@@ -1864,16 +1866,16 @@ margin-top: 10px;
 
 #our-team .our-arrow-l {
     position: absolute;
-    top: 58%;
-    transform: translateY(-58%);
+    top: 54%;
+    transform: translateY(-54%);
     z-index: 90;
     left: 2%;
 }
 
 #our-team .our-arrow-r {
     position: absolute;
-    top: 58%;
-    transform: translateY(-58%);
+    top: 54%;
+    transform: translateY(-54%);
     z-index: 90;
     right: 2%;
 }
@@ -1889,6 +1891,179 @@ margin-top: 10px;
     color: var(--hlt_clr);
 
 }
+.bottom-footer #footer {
+    margin: 0;
+}
 /* our team section ends here */
 
 /****************************** About us page page css starts here ******************************/
+
+
+/****************************** blog list view page page css starts here ******************************/
+
+/* list view section starts here */
+#list-view {
+    padding-top: 80px;
+}
+
+.top-list {
+    border: 1px solid #ddd;
+    padding: 10px 0;
+}
+.th-links a {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #555;
+    cursor: pointer;
+    transition: all 0.8s linear;
+    margin-left: 10px;
+    color: #333;
+}
+.th-links a:hover {
+    background: var(--hlt_clr);
+}
+.select-list span {
+    font-size: 14px;
+    font-weight: 400;
+}
+.select-list select {
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.select-list {
+    text-align: end;
+}
+.next .pages {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 15px;
+    line-height: 40px;
+}
+.next {
+    display: flex;
+    justify-content: end;
+}
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    border-radius: 0;
+}
+.pagination li a {
+    color: #555;
+    border-color: #555;
+    font-size: 14px;
+    padding: 10px 12px;
+}
+.pagination li a:hover {
+    color: #555;
+}
+.pagination {
+    padding: 0 15px;
+}
+.th-links {
+    display: flex;
+}
+.blog-img-text-content {
+    padding-top: 60px;
+}
+.blog-main {
+    position: relative;
+    margin-bottom: 175px;
+}
+.blog-image-text ul {
+    display: flex;
+}
+.blog-image-text ul li a {
+    font-size: 14px;
+    color: #555;
+    transition: var(--transition-fast);
+}
+.blog-image-text ul li a:hover {
+    color: var(--hlt_clr);
+}
+.blog-image-text h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.blog-image-text ul li  {
+    padding-right: 10px;
+}
+.blog-image-text p {
+    padding: 30px 0;
+    font-size: 14px;
+}
+.blog-image-text .blog-text-button a {
+    background-color: var(--text-clr);
+    border: 1px solid var(--secondary-clr);
+    color: var(--secondary-clr);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 16px;
+    transition: var(--transition-fast);
+    position: relative;
+    z-index: 1;
+}
+.blog-image-text .blog-text-button a:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 0;
+    top: 0;
+    background: var(--hlt_clr);
+    z-index: -1;
+    transition: var(--transition-fast);
+}
+.blog-image-text .blog-text-button a:hover:before {
+    width: 100%;
+}
+.blog-image-text .blog-text-button a:hover {
+    border-color: var(--hlt_clr);
+}
+
+.blog-image-text {
+    width: 670px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f1f1f1;
+    padding: 80px 50px 30px 50px;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 40;
+}
+.blog-button-bottom a {
+    background-color: var(--hlt_clr);
+    width: 100%;
+    text-align: center;
+    color: var(--secondary-clr);
+    font-weight: 500;
+    padding: 15px 20px;
+    border: 1px solid var(--text-clr);
+    display: inline-block;
+    font-size: 16px;
+    transition: var(--transition-slow);
+    position: relative;
+    z-index: 1;
+}
+.blog-button-bottom a:before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: var(--transition-slow);
+    background: #f1f1f1;
+}
+.blog-button-bottom a:hover:before {
+    width: 100%;
+}
+/* list view section ends here */
+
+
+
+/****************************** blog list view page page css ends here ******************************/
