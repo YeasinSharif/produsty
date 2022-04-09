@@ -107,9 +107,10 @@ $(function () {
     slidesToShow: 3,
     autoplay: false,
     slidesToScroll: 1,
-    arrows: false,
     centerMode: true,
-    centerPadding: '0px'
+    centerPadding: '0px',
+    prevArrow: $('.our-arrow-l'),
+    nextArrow: $('.our-arrow-r')
 
   });
   /* our team slider */

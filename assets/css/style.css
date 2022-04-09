@@ -1708,6 +1708,7 @@ margin-top: 10px;
 
 #our-team {
     padding-top: 80px;
+    position: relative;
 }
 .team-info ul {
     transition: var(--transition-fast);
@@ -1762,6 +1763,7 @@ margin-top: 10px;
 }
 .team-items {
     margin: 0 15px;
+    padding-top: 40px;
 }
 .team-info-animate {
     position: absolute;
@@ -1796,6 +1798,96 @@ margin-top: 10px;
 .our-team-heading span {
     font-size: 16px;
     color: #555;
+}
+#our-team .our-icons {
+    position: relative;
+    font-size: 25px;
+    padding: 2px 12px;
+    z-index: 90;
+    cursor: pointer;
+}
+
+
+#our-team .our-icons:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: var(--secondary-clr);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(1.4, 2);
+    transition: var(--transition-fast);
+
+}
+
+#our-team .our-icons:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: var(--secondary-clr);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scale(1.4, 2);
+    transition: var(--transition-fast);
+}
+
+#our-team .our-icons a:before {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: var(--secondary-clr);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(2, 1.4);
+    transition: var(--transition-fast);
+}
+
+#our-team .our-icons a:after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: var(--secondary-clr);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: scale(2, 1.4);
+    transition: var(--transition-fast);
+}
+
+#our-team .our-icons a {
+    color: var(--secondary-clr);
+    transition: var(--transition-fast);
+}
+
+#our-team .our-arrow-l {
+    position: absolute;
+    top: 58%;
+    transform: translateY(-58%);
+    z-index: 90;
+    left: 2%;
+}
+
+#our-team .our-arrow-r {
+    position: absolute;
+    top: 58%;
+    transform: translateY(-58%);
+    z-index: 90;
+    right: 2%;
+}
+
+#our-team .our-icons:hover:after,
+#our-team .our-icons:hover:before,
+#our-team .our-icons:hover a:after,
+#our-team .our-icons:hover a:before {
+    background: var(--hlt_clr);
+}
+
+#our-team .our-icons:hover a {
+    color: var(--hlt_clr);
+
 }
 /* our team section ends here */
 
