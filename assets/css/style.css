@@ -2197,6 +2197,41 @@ margin-top: 10px;
     color: var(--hlt_clr);
     border-color: var(--hlt_clr);
 }
+.modal-body-custom iframe {
+    width: 100%;
+    height: 100%;
+}
+.modal-body-custom {
+    height: 80vh;
+}
+.video-attatch {
+    position: relative;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.video-attatch-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: rgba(0, 0, 0, 0.658);
+}
+.video-attatch-overlay i {
+    z-index: 2;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--text-clr);
+    text-align: center;
+    background-color: #ff3d3d;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
 
 /* list view section ends here */
 
