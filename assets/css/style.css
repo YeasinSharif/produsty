@@ -1550,7 +1550,7 @@ margin-top: 10px;
 
 
 
-/****************************** About us page page css starts here ******************************/
+/****************************** About us page  css starts here ******************************/
 
 /* about us bg section starts here */
 
@@ -1900,10 +1900,10 @@ margin-top: 10px;
 }
 /* our team section ends here */
 
-/****************************** About us page page css starts here ******************************/
+/****************************** About us  page css starts here ******************************/
 
 
-/****************************** blog list view page page css starts here ******************************/
+/****************************** blog list view  page css starts here ******************************/
 
 /* list view section starts here */
 #list-view {
@@ -2237,11 +2237,11 @@ margin-top: 10px;
 }
 /* list view section ends here */
 
-/****************************** blog list view page page css ends here ******************************/
+/****************************** blog list view  page css ends here ******************************/
 
 
 
-/****************************** blog details view page page css ends here ******************************/
+/****************************** blog details view  page css ends here ******************************/
 .blogspot-icons {
     display: flex;
     justify-content: space-between;
@@ -2343,11 +2343,11 @@ margin-top: 10px;
 .leave-a-reply .blog-button-bottom {
     margin-top: 25px;
 }
-/****************************** blog details view page page css ends here ******************************/
+/****************************** blog details view  page css ends here ******************************/
 
 
 
-/****************************** error page page page css starts here ******************************/
+/****************************** error  page css starts here ******************************/
 /* error section starts here */
 #error {
         background: #d6f2e7;
@@ -2387,10 +2387,10 @@ margin-top: 10px;
 }
 
 /* error section ends here */
-/****************************** error page page page css ends here ******************************/
+/****************************** error page  page css ends here ******************************/
 
 
-/****************************** comming soon page page css starts here ******************************/
+/****************************** comming soon  page css starts here ******************************/
 #comming-soon {
     background: url(../images/coming_soon.jpg) center center no-repeat;
     background-size: cover;
@@ -2582,7 +2582,177 @@ margin-top: 10px;
     transform: scaleY(1.3);
 }
 
+/****************************** comming soon view page css ends here ******************************/
+
+
+/****************************** portfolio  page css starts here ******************************/
+.portfolio-img-custom {
+        margin: 20px 0;
+}
+.animated-button a {
+    color: var(--secondary-clr);
+    background-color: var(--hlt_clr);
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 16px;
+    transition: var(--transition-fast);
+}
+.animated-button {
+    margin-top: 20px;
+}
+/****************************** portfolio page css ends here ******************************/
 
 
 
-/****************************** comming soon view page page css ends here ******************************/
+/****************************** blog grid page css ends here ******************************/
+/* our blog section starts here */
+
+
+.blog-img-custom {
+    transition: var(--transition-fast);
+}
+
+.blog-overlay-custom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.521);
+    transition: var(--transition-fast);
+}
+
+.blog-overlay-custom {
+    display: grid;
+    place-items: center;
+}
+
+.blog-overlay-custom a {
+    color: var(--secondary-clr);
+    background: var(--hlt_clr);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    border: 1px solid transparent;
+    transition: var(--transition-fast);
+}
+
+.blog-overlay-custom a:hover {
+    background: transparent;
+    border-color: var(--hlt_clr);
+    color: var(--hlt_clr);
+}
+
+.blog-text-custom {
+    border: 1px solid #ddd;
+    padding: 30px 25px;
+    position: relative;
+    top: -80px;
+    padding-top: 95px;
+    border-top: transparent;
+    transition: var(--transition-fast);
+    text-align: center;
+}
+
+.blog-tex-customt h4 {
+    font-size: 18px;
+    color: var(--secondary-clr);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.blog-text-custom ul li a {
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blog-text-custom p {
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.blog-button-custom a {
+    text-transform: uppercase;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    transition: var(--transition-fast);
+    background-color: var(--hlt_clr);
+    color: var(--secondary-clr);
+    font-weight: 500;
+    border: 1px solid transparent;
+}
+
+.blog-button-custom a:hover {
+    background-color: #f7f7f7;
+    border-color: var(--hlt_clr);
+    color: var(--hlt_clr);
+}
+
+.blog-content-custom:hover .blog-overlay-custom {
+    height: 100%;
+    opacity: 1;
+}
+
+.blog-content-custom .blog-img-custom {
+    position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+/* our blog section ends here */
+
+/****************************** blog grid page css ends here ******************************/
+
+
+
+
+
+
+/****************************** contact us page css ends here ******************************/
+#contact-us-icon {
+    padding: 60px 0;
+}
+.contact-us-address i {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--hlt_clr);
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.contact-us-desc p,
+.contact-us-desc p a {
+    color: var(--secondary-clr);
+    position: relative;
+    transition: var(--transition-fast);
+    font-size: 14px;
+    line-height: 36px;
+}
+.contact-us-desc p:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: #c4c4c4;
+    top: 0;
+    right: -16px;
+}
+.last-address:before {
+    height: 0 !important;
+}
+.contact-us-desc p a:hover {
+    color: var(--hlt_clr);
+}
+/****************************** contact uspage css ends here ******************************/
