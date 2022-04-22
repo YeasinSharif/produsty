@@ -2755,4 +2755,91 @@ margin-top: 10px;
 .contact-us-desc p a:hover {
     color: var(--hlt_clr);
 }
+#map iframe {
+    width: 100%;
+    height: 410px;
+    display: block;
+}
+#map {
+    position: relative;
+
+}
+#map:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.24);
+}
+#map i {
+    position: absolute;
+    z-index: 24;
+    font-size: 50px;
+    color: #ffca36;
+    left: 50%;
+    top: 50%;
+}
+.news-heading h2 {
+    font-weight: 300;
+    color: var(--secondary-clr);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.news-heading p {
+    font-size: 16px;
+    color: #555;
+}
+#newsletter {
+    padding-top: 80px;
+}
+.news-form {
+    background-image: url(../images/news_bg.jpg);
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    background-size: cover;
+    margin-top: 40px;
+    
+}
+
+.news-form form textarea {
+    resize: none;
+}
+.news-form form input,
+.news-form form textarea {
+    color: #777;
+    text-transform: capitalize;
+    resize: none;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.news-form form button {
+    border-style: none;
+    background-color: #ffca36;
+    font-size: 16px;
+    color: #353535;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0;
+    margin-top: 30px;
+    transition: all 0.3s linear;
+}
+.news-form form textarea {
+    width: 100%;
+    height: 132px;
+    resize: none;
+    padding: 6px 12px;
+}
+.news-form form {
+        background-color: #fff;
+        padding: 30px 30px 40px 30px;
+        box-shadow: 0px 1px 8px 4px #999;
+}
+.news-form form button:hover {
+    background-color: #ddd;
+}
 /****************************** contact uspage css ends here ******************************/
