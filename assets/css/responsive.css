@@ -1,0 +1,441 @@
+@media (min-width: 320px) and (max-width: 575.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #bottomheader ul {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .toggle-button {
+        display: none;
+    }
+
+    #bottomheader .navbar ul>li>a {
+        padding: 0px 0px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .toggle-btn-mobile {
+        display: block;
+    }
+
+    .navbar-brand {
+        left: 10%;
+    }
+
+    .top-mid {
+        transform: scaleX(1.1);
+        height: 40px;
+    }
+
+    .top-mid p {
+        transform: skewX(0deg);
+        padding: 10px 0px;
+    }
+
+    .top-left {
+        height: 42px;
+        text-align: center;
+    }
+
+    .top-right {
+        height: 42px;
+        text-align: center;
+    }
+
+    .top-left p {
+        padding-left: 0;
+        line-height: 43px;
+    }
+
+    .top-right ul {
+        padding: 8px 0;
+    }
+
+    #topheader {
+        overflow: hidden;
+    }
+
+    #banner .banner-arrow-l {
+        display: none !important;
+    }
+
+    #banner .banner-arrow-r {
+        display: none !important;
+    }
+
+    .banner-content {
+        height: 400px;
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+    }
+
+    .banner-items {
+        text-align: center;
+    }
+
+    .banner-button a {
+        padding: 14px 10px;
+    }
+
+    #ourservice {
+        padding-top: 30px;
+    }
+
+    .service-heading h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .about-us-bg {
+        display: none;
+    }
+
+    #about-us {
+        padding-top: 30px;
+    }
+
+    .about-us-heading h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .company-btn a {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    .tab-pane p {
+        padding-bottom: 15px;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .company-btn {
+        text-align: center;
+    }
+
+    #portfolio {
+        padding-top: 30px;
+    }
+
+    .portfolio-heading h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    #counter {
+        margin-top: 30px;
+        padding: 20px 0;
+    }
+
+    .tabs button a {
+        margin-right: 29px;
+        margin-left: 29px;
+    }
+
+    #portfolio .portfolio-arrow-l {
+        display: none !important;
+    }
+
+    #portfolio .portfolio-arrow-r {
+        display: none !important;
+    }
+
+    .counter h2 {
+        font-size: 25px;
+    }
+
+    .counter p {
+        font-size: 16px;
+    }
+
+    .counter {
+        padding: 5px 0px;
+    }
+
+    #ourblog {
+        padding-top: 30px;
+    }
+
+    .blog-heading h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    #ourblog .our-arrow-l {
+        display: none !important;
+    }
+
+    #ourblog .our-arrow-r {
+        display: none !important;
+    }
+
+    .testimonial-heading h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    #testimonial .testimonial-arrow-l {
+        display: none !important;
+    }
+
+    #testimonial .testimonial-arrow-r {
+        display: none !important;
+    }
+
+    .brand-img {
+        display: inline-block;
+    }
+
+    .brand-item {
+        text-align: center;
+    }
+
+    .blog-img img {
+        width: 100%;
+    }
+
+    .footer-two h3,
+    .footer-three h3,
+    .footer-four h3 {
+        margin: 25px 0 25px 0;
+    }
+
+    .footer-icons a {
+        margin-right: 0;
+    }
+
+    .footer-news-img img {
+        max-width: initial;
+    }
+
+    .footer-news-info p {
+        font-size: 11px;
+    }
+
+    .footer-news-info span {
+        font-size: 11px;
+    }
+
+    .footer-news-likes {
+        margin-top: 0;
+    }
+
+    .footer-news-likes a {
+        font-size: 11px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #topheader {
+        font-size: 12px;
+    }
+
+    #bottomheader .navbar ul>li>a {
+        padding: 20px 0px;
+    }
+
+    .banner-content {
+        height: 500px;
+    }
+
+    .banner-items {
+        left: 80px;
+    }
+
+    .banner-button a {
+        padding: 12px 10px;
+    }
+
+    #ourservice {
+        padding-top: 40px;
+    }
+
+    .about-us-bg {
+        display: none;
+    }
+
+    #about-us {
+        padding-top: 40px;
+    }
+
+    .tabs {
+        padding-left: 26px;
+    }
+
+    .about-us-heading h2 {
+        margin-bottom: 10px;
+        padding-left: 26px;
+    }
+
+    #portfolio {
+        padding-top: 40px;
+    }
+
+    #portfolio .portfolio-icons {
+        display: none;
+    }
+
+    #ourblog {
+        padding-top: 40px;
+    }
+
+
+
+    .blog-text {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .blog-text h4 {
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .blog-text ul li a {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .blog-text p {
+        font-size: 12px;
+    }
+
+    .blog-button a {
+        padding: 10px 15px;
+    }
+
+    #ourblog .our-arrow-l {
+        top: 73%;
+        left: 15%;
+    }
+
+    #ourblog .our-arrow-r {
+        top: 73%;
+        right: 15%;
+    }
+
+    #brand .brand-icons {
+        display: none;
+    }
+
+    #footer {
+        margin-top: 40px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /****************************** home page css starts here ******************************/
+
+    .top-left p {
+        font-size: 12px;
+    }
+
+    .banner-items {
+        left: 85px;
+    }
+
+    .banner-button a {
+        padding: 13px 18px;
+    }
+
+    .tabs button a {
+        margin-right: 35px;
+    }
+
+    .about-us-heading h2 {
+        margin-bottom: 8px;
+    }
+
+    .tab-pane p {
+        padding-bottom: 8px;
+    }
+
+    .about-us-bg img {
+        left: 54%;
+    }
+
+    .company-btn a {
+        padding: 10px 15px;
+        position: absolute;
+    }
+
+    .slick-slide img {
+        width: 100%;
+    }
+
+    #portfolio .portfolio-icons {
+        display: none;
+    }
+
+    #ourblog .our-arrow-r {
+        top: 75%;
+        right: 10%;
+    }
+
+    #ourblog .our-arrow-l {
+        top: 75%;
+        left: 10%;
+    }
+
+    .blog-text h4 {
+        font-size: 15px;
+    }
+
+    .blog-text ul li a {
+        font-size: 12px;
+    }
+
+    .blog-button a {
+        padding: 12px 16px;
+    }
+
+    .testimonial-img-item img {
+        width: initial;
+    }
+
+    #brand .brand-icons {
+        display: none;
+    }
+
+    .footer-icons a {
+        margin-right: 5px;
+    }
+
+    .info-add a {
+        font-size: 12px;
+    }
+
+
+
+    /****************************** home page css ends here ******************************/
+
+}

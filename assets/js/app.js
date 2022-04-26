@@ -22,6 +22,31 @@ $(function () {
     fade: false,
     centerMode: true,
     centerPadding: '0px',
+    responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    
+                }
+    },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+    },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+    }
+  ]
   });
   /* our blog slider */
 
@@ -31,7 +56,7 @@ $(function () {
     prevArrow: '<p class="banner-arrow-l"><span class="banner-icons "><a ><i class="fa fa-chevron-left prv-arrow"></i></a></span></p>',
     nextArrow: '<p class="banner-arrow-r"><span class="banner-icons "><a ><i class="fa fa-chevron-right nxt-arrow"></i></a></span></p>',
     dots: false,
-    autoplay: true,
+    autoplay: false,
     speed: 1000,
     fade: true,
 
@@ -46,9 +71,35 @@ $(function () {
   $('.service-slider').slick({
     infinite: true,
     slidesToShow: 3,
-    autoplay: true,
+    autoplay: false,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
 
   });
   /* service slider */
@@ -59,10 +110,34 @@ $(function () {
   $('.portfolio-slider').slick({
     infinite: true,
     slidesToShow: 4,
-    autoplay: true,
+    autoplay: false,
     slidesToScroll: 1,
     prevArrow: $('.portfolio-arrow-l'),
-    nextArrow: $('.portfolio-arrow-r')
+    nextArrow: $('.portfolio-arrow-r'),
+    responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
   /* portfolio slider */
 
@@ -97,11 +172,35 @@ $(function () {
     focusOnSelect: true,
     centerPadding: '0px',
     prevArrow: $('.brand-arrow-l'),
-    nextArrow: $('.brand-arrow-r')
+    nextArrow: $('.brand-arrow-r'),
+    responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
   /* brand slider */
 
-    /* our team slider */
+  /* our team slider */
   $('.team-slider').slick({
     infinite: true,
     slidesToShow: 3,
@@ -116,6 +215,13 @@ $(function () {
   });
   /* our team slider */
 
+  /* mobile menu js starts here */
+  
+  $('.toggle-btn-mobile').on('click', function () {
+    $('.mobile-menu').toggleClass('active');
+  }); 
+  /* mobile menu js ends here */
+
 
 
 
@@ -123,3 +229,19 @@ $(function () {
 
 
 })
+
+
+
+            /*fixed menu*/
+
+ /*  $(window).on('scroll', function(){
+       if ($(window).scrollTop() > $('#bottomheader').height()){
+           $('#bottomheader').addClass('fixed-menu')
+       }else {
+           $('#bottomheader').removeClass('fixed-menu')
+       }
+   }) */
+
+   /* fixed menu */
+
+      

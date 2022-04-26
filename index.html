@@ -34,17 +34,17 @@
     <section id="topheader">
         <div class="container">
             <div class="row align-items-center">
-                <div class="top-left col-lg-3 ">
+                <div class="top-left col-lg-3 col-md-4">
                     <p>
                         <i class="fa fa-map-marker"></i> 1234, Park Street, New York, America
                     </p>
 
                 </div>
-                <div class="top-mid col-lg-6 text-center">
+                <div class="top-mid col-lg-6 col-md-4 text-center">
                     <p>Welcome to <span> PRODUSTRY </span></p>
 
                 </div>
-                <div class="top-right col-lg-3">
+                <div class="top-right col-lg-3 col-md-4">
                     <ul>
                         <li>
                             <a href="#">
@@ -81,14 +81,74 @@
     <!-- ========== top header starts here ========== -->
 
     <!-- ========== bottom header starts here========== -->
+
+        <!--mobile menu starts-->
+    <ul class="navbar-nav mobile-menu">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./about-us/about-us.html">About Us</a>
+        </li>
+
+
+
+        <li class="nav-item">
+            <a class="nav-link" href="#dropdown-list" data-bs-toggle="collapse">Pages <span class="nav-arrow"><i class="fas fa-chevron-right"></i></span></a>
+
+            <ul class="collapse" id="dropdown-list">
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="./blog-list-view/blog-list-view.html">Blog list page</a>
+                </li>
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="./blog-details-view/blog-details-view.html">Blog details page</a>
+                </li>
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="./error-page/error-page.html">Error-page</a>
+                </li>
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="./coming-soon-page/coming-soon-page.html">Coming-Soon-page</a>
+                </li>
+            </ul>
+        </li>
+
+
+
+
+        <li class="nav-item">
+            <a class="nav-link" href="./portfolio/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#dropdown-list2" data-bs-toggle="collapse">Our Blog <span class="nav-arrow"><i class="fas fa-chevron-right"></i></span></a>
+
+            <ul class="collapse" id="dropdown-list2">
+                                <li class="nav-item border-0">
+                                    <a class="nav-link" href="./blog-grid-view/blog-grid-view.html">Blog grid page</a>
+                                </li>
+                                <li class="nav-item border-0">
+                                    <a class="nav-link" href="./blog-list-view/blog-list-view.html">Blog list page</a>
+                                </li>
+                                <li class="nav-item border-0">
+                                    <a class="nav-link" href="./blog-details-view/blog-details-view.html">Blog details page</a>
+                                </li>
+                            </ul>
+
+        </li>
+        <li class="nav-item border-0">
+            <a class="nav-link" href="./contact-us/contact.html">Contact Us</a>
+        
+        </li>
+
+    </ul>
+
+    <!--mobile menu ends-->
+
     <section id="bottomheader">
 
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-md ">
             <div class="container">
                 <a class="navbar-brand toggle-brand" href="#"><img src="./assets/images/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="toggle-btn-mobile btn">
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -134,8 +194,6 @@
             </div>
         </nav>
     </section>
-
-
     <!-- ==========bottom header ends here ========== -->
 
 
@@ -145,7 +203,7 @@
 
             <div class="banner-content " style="background-image: url(./assets/images/slider01.jpg);">
                 <div class="container">
-                    <div class="col-lg-5 banner-items">
+                    <div class="col-lg-5 col-md-8 banner-items">
                         <h1>We Make Your <span>Dream</span></h1>
                         <p>We are the best construction factory on production based ever. You can get every type ofort
                             in the construction related work from us. Just feel free and come to us. We will help you to
@@ -162,7 +220,7 @@
 
             <div class="banner-content" style="background-image: url(./assets/images/slider02.jpg);">
                 <div class="container">
-                    <div class="col-lg-5 banner-items">
+                    <div class="col-lg-5 col-md-8 banner-items">
                         <h1>We Make Your <span>Dream</span></h1>
                         <p>We are the best construction factory on production based ever. You can get every type ofort
                             in the construction related work from us. Just feel free and come to us. We will help you to
@@ -178,7 +236,7 @@
 
             <div class="banner-content" style="background-image: url(./assets/images/slider03.jpg);">
                 <div class="container">
-                    <div class="col-lg-5 banner-items">
+                    <div class="col-lg-5 col-md-8 banner-items">
                         <h1>We Make Your <span>Dream</span></h1>
                         <p>We are the best construction factory on production based ever. You can get every type ofort
                             in the construction related work from us. Just feel free and come to us. We will help you to
@@ -209,7 +267,7 @@
             </div>
             <div class="service-slider row">
 
-                <div class="col-lg-4 service-item">
+                <div class="col-4 col-lg-6 col-sm-12 service-item">
                     <div class="service-image">
                         <img src="./assets/images/serv_icon.png" class="img-fluid" alt="">
                     </div>
@@ -221,7 +279,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 service-item">
+                <div class="col-4 col-lg-6 col-sm-12 service-item">
                     <div class="service-image">
                         <img src="./assets/images/serv_icon1.png" class="img-fluid" alt="">
                     </div>
@@ -233,7 +291,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 service-item">
+                <div class="col-4 col-lg-6 col-sm-12 service-item">
                     <div class="service-image">
                         <img src="./assets/images/serv_icon2.png" class="img-fluid" alt="">
                     </div>
@@ -245,7 +303,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 service-item">
+                <div class="col-4 col-lg-6 col-sm-12 service-item">
                     <div class="service-image">
                         <img src="./assets/images/serv_icon.png" class="img-fluid" alt="">
                     </div>
@@ -257,7 +315,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 service-item">
+                <div class="col-4 col-lg-6 col-sm-12 service-item">
                     <div class="service-image">
                         <img src="./assets/images/serv_icon2.png" class="img-fluid" alt="">
                     </div>
@@ -290,7 +348,7 @@
                         <div class="tabs">
                             <nav>
                                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                    <button class="nav-link active" id="nav-company-tab" data-bs-toggle="tab"
+                                    <button class="nav-link text-center active" id="nav-company-tab" data-bs-toggle="tab"
                                         data-bs-target="#nav-company" type="button" role="tab"
                                         aria-controls="nav-company" aria-selected="true"><a
                                             href="#">COMPANY</a></button>
@@ -462,25 +520,25 @@
     <section id="counter">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="counter">
                         <h2>219</h2>
                         <p>Satisfied Client</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="counter">
                         <h2>333</h2>
                         <p>Total Employeest</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="counter">
                         <h2>444</h2>
                         <p>Finished Project</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="counter">
                         <h2>555</h2>
                         <p>Happy Customer</p>
@@ -814,25 +872,40 @@
             <!-- ========== slider arrow  ========== -->
             <div class="row brand-slider justify-content-center">
                 <div class="col-lg-2 brand-item">
-                    <a href="#"><img src="./assets/images/audiojungle.png" class="img-fluid" alt=""></a>
+                    <div class="brand-img">
+                        <a href="#"><img src="./assets/images/audiojungle.png" class="img-fluid" alt=""></a>
+                    </div>
+                    
                 </div>
                 <div class="col-lg-2 brand-item">
-                    <a href="#"><img src="./assets/images/codecanyon.png" class="img-fluid" alt=""></a>
+                    <div class="brand-img">
+                        <a href="#"><img src="./assets/images/codecanyon.png" class="img-fluid" alt=""></a>
+                    </div>
                 </div>
                 <div class="col-lg-2 brand-item">
-                    <a href="#"><img src="./assets/images/phtodune.png" class="img-fluid" alt=""></a>
+                    <div class="brand-img">
+                        <a href="#"><img src="./assets/images/phtodune.png" class="img-fluid" alt=""></a>
+                    </div>
                 </div>
                 <div class="col-lg-2 brand-item">
-                    <a href="#"><img src="./assets/images/thmforestbrand.png" class="img-fluid" alt=""></a>
+                    <div class="brand-img">
+                        <a href="#"><img src="./assets/images/thmforestbrand.png" class="img-fluid" alt=""></a>
+                    </div>
                 </div>
                 <div class="col-lg-2 brand-item">
-                    <a href="#"><img src="./assets/images/3docean.png" class="img-fluid" alt=""></a>
+                    <div class="brand-img">
+                        <a href="#"><img src="./assets/images/3docean.png" class="img-fluid" alt=""></a>
+                    </div>
                 </div>
                 <div class="col-lg-2 brand-item">
-                    <a href="#"><img src="./assets/images/codecanyon.png" class="img-fluid" alt=""></a>
+                    <div class="brand-img">
+                        <a href="#"><img src="./assets/images/codecanyon.png" class="img-fluid" alt=""></a>
+                    </div>
                 </div>
                 <div class="col-lg-2 brand-item">
-                    <a href="#"><img src="./assets/images/phtodune.png" class="img-fluid" alt=""></a>
+                    <div class="brand-img">
+                        <a href="#"><img src="./assets/images/phtodune.png" class="img-fluid" alt=""></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -845,7 +918,7 @@
     <section id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 footer-one">
+                <div class="col-lg-3 col-sm-6 footer-one">
                     <a href="#"><img src="./assets/images/footer-logo.png" class="img-fluid" alt=""></a>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's. unknown printer took a galley of type and scrambled it to make a type.</p>
@@ -857,7 +930,7 @@
                         <a href="#"><i class="fa fa-pinterest"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 footer-two">
+                <div class="col-lg-3 col-sm-6 footer-two">
                     <h3>Contact Us</h3>
                     <div class="address">
                         <div class="icon-add">
@@ -887,7 +960,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 footer-three">
+                <div class="col-lg-2 col-sm-6 footer-three">
                     <h3>Important Links</h3>
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -899,7 +972,7 @@
                     </ul>
 
                 </div>
-                <div class="col-lg-4 footer-four">
+                <div class="col-lg-4 col-sm-6 footer-four">
                 <h3>Latest News</h3>
                 <div class="footer-news">
                     <div class="footer-news-img">
