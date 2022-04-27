@@ -1,4 +1,295 @@
-@media (min-width: 320px) and (max-width: 575.98px) {}
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    .top-mid {
+        transform: scaleX(1.1);
+
+    }
+
+    .top-mid p {
+        transform: skewX(0deg);
+    }
+
+    .about-us-bg {
+        display: none;
+    }
+
+    #topheader {
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+
+    .navbar-brand {
+        left: 0%;
+        transform: translateX(0);
+    }
+
+    .toggle-btn-mobile {
+        display: block;
+    }
+
+    .mobile-menu {
+        width: 240px;
+    }
+
+    .top-mid p {
+        padding: 5px 0px;
+    }
+
+    #banner .banner-icons {
+        display: none;
+    }
+
+    .banner-content p {
+        line-height: 22px;
+        padding: 5px 0 10px 0;
+        font-size: 12px;
+    }
+
+    .banner-content h1 {
+        font-size: 20px;
+    }
+
+    .banner-content {
+        height: 300px;
+        text-align: center;
+    }
+
+    .banner-content:after {
+        inset: 0;
+    }
+
+    .banner-button a {
+        padding: 10px 5px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    #ourservice {
+        padding-top: 20px;
+    }
+
+
+
+    .service-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .service-heading span {
+        font-size: 13px;
+    }
+
+    .service-heading span p {
+        display: inline-block;
+    }
+
+    .service-text {
+        padding: 15px;
+    }
+
+    .about-us-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .about-us-heading {
+        text-align: center;
+    }
+
+    .tabs button a {
+        margin-right: 0;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .tabs button a:after {
+        bottom: -7px;
+    }
+
+    .tab-pane p {
+        line-height: 19px;
+        font-size: 12px;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+
+    .company-btn a {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    #portfolio {
+        padding-top: 20px;
+    }
+
+    .portfolio-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .portfolio-heading span {
+        font-size: 13px;
+    }
+
+    .portfolio-heading p {
+        font-size: 13px;
+        display: inline-block;
+    }
+
+    .portfolio-img img {
+        width: 100%;
+
+    }
+
+    #portfolio .portfolio-icons {
+        display: none;
+    }
+
+    #counter {
+        margin-top: 20px;
+        padding: 10px 0;
+    }
+
+    .counter h2 {
+        font-size: 24px;
+    }
+
+    .counter p {
+        font-size: 14px;
+    }
+
+    .col-xs-6 {
+        width: 50%;
+        padding: 8px 0;
+    }
+
+    #ourblog {
+        padding-top: 20px;
+    }
+
+    .blog-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .blog-heading span {
+        font-size: 13px;
+    }
+
+    .blog-slider {
+        padding-top: 20px;
+    }
+
+    #ourblog .our-icons {
+        display: none;
+    }
+
+    .blog-text h4 {
+        font-size: 14px;
+    }
+
+    .blog-text ul li a {
+        font-size: 12px;
+    }
+
+    .blog-button a {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .testimonial-heading h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .testimonial-heading span {
+        font-size: 13px;
+    }
+
+    .testimonial-img-slider {
+        width: 300px;
+    }
+
+    .testi-text {
+        width: initial;
+        margin-top: 20px;
+    }
+
+    .testimonial-bg {
+        height: 360px;
+        margin-top: 30px;
+    }
+
+    #brand {
+        padding-top: 30px;
+    }
+
+    .brand-item.slick-center .brand-img {
+        display: inline-block;
+    }
+
+    .brand-item {
+        text-align: center;
+    }
+
+    #brand .brand-arrow-l {
+        top: 65%;
+        transform: translateY(-65%);
+    }
+
+    #brand .brand-arrow-r {
+        top: 65%;
+        transform: translateY(-65%);
+    }
+
+    #footer {
+        margin-top: 20px;
+    }
+
+    #footer {
+        margin-top: 20px;
+        padding-top: 25px;
+        text-align: center;
+
+    }
+
+    .footer-two h3,
+    .footer-three h3,
+    .footer-four h3 {
+        margin: 25px 0 25px 0;
+    }
+
+    .address {
+        justify-content: center;
+    }
+
+    .footer-news-info p {
+        font-size: 12px;
+    }
+
+    .footer-news-info span {
+        font-size: 12px;
+    }
+
+    .footer-news-likes {
+        margin-top: 0px;
+    }
+
+    .footer-news-likes a {
+        font-size: 12px;
+    }
+
+    .copyright-text p {
+        font-size: 12px;
+    }
+
+
+
+
+
+}
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     #bottomheader ul {
