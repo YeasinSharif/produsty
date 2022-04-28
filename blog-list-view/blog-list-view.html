@@ -34,17 +34,17 @@
     <section id="topheader">
         <div class="container">
             <div class="row align-items-center">
-                <div class="top-left col-lg-3 ">
+                <div class="top-left col-lg-3 col-md-4">
                     <p>
                         <i class="fa fa-map-marker"></i> 1234, Park Street, New York, America
                     </p>
 
                 </div>
-                <div class="top-mid col-lg-6 text-center">
+                <div class="top-mid col-lg-6 col-md-4 text-center">
                     <p>Welcome to <span> PRODUSTRY </span></p>
 
                 </div>
-                <div class="top-right col-lg-3">
+                <div class="top-right col-lg-3 col-md-4">
                     <ul>
                         <li>
                             <a href="#">
@@ -77,17 +77,77 @@
             </div>
         </div>
     </section>
-    <!-- ========== top header starts here ========== -->
 
+    <!-- ========== top header starts here ========== -->
     <!-- ========== bottom header starts here========== -->
+
+        <!--mobile menu starts-->
+    <ul class="navbar-nav mobile-menu">
+        <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../about-us/about-us.html">About Us</a>
+        </li>
+
+
+
+        <li class="nav-item">
+            <a class="nav-link" href="#dropdown-list" data-bs-toggle="collapse">Pages <span class="nav-arrow"><i class="fas fa-chevron-right"></i></span></a>
+
+            <ul class="collapse" id="dropdown-list">
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="blog-list-view/blog-list-view.html">Blog list page</a>
+                </li>
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="../blog-details-view/blog-details-view.html">Blog details page</a>
+                </li>
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="../error-page/error-page.html">Error-page</a>
+                </li>
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="../coming-soon-page/coming-soon-page.html">Coming-Soon-page</a>
+                </li>
+            </ul>
+        </li>
+
+
+
+
+        <li class="nav-item">
+            <a class="nav-link" href="../portfolio/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#dropdown-list2" data-bs-toggle="collapse">Our Blog <span class="nav-arrow"><i class="fas fa-chevron-right"></i></span></a>
+
+            <ul class="collapse" id="dropdown-list2">
+                                <li class="nav-item border-0">
+                                    <a class="nav-link" href="../blog-grid-view/blog-grid-view.html">Blog grid page</a>
+                                </li>
+                                <li class="nav-item border-0">
+                                    <a class="nav-link" href="../blog-list-view/blog-list-view.html">Blog list page</a>
+                                </li>
+                                <li class="nav-item border-0">
+                                    <a class="nav-link" href="../blog-details-view/blog-details-view.html">Blog details page</a>
+                                </li>
+                            </ul>
+
+        </li>
+        <li class="nav-item border-0">
+            <a class="nav-link" href="../contact-us/contact.html">Contact Us</a>
+        
+        </li>
+
+    </ul>
+
+    <!--mobile menu ends-->
+
     <section id="bottomheader">
 
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-md ">
             <div class="container">
-                <a class="navbar-brand toggle-brand" href="#"><img src="../assets/images/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand toggle-brand" href="#"><img src="../assets/images/logo.png" class="img-fluid" alt=""></a>
+                <button class="toggle-btn-mobile btn">
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -96,12 +156,12 @@
                             <a class="nav-link" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../about-us/about-us.html">About Us</a>
+                            <a class="nav-link" href="about-us.html">About Us</a>
                         </li>
                         <li>
                             <a class="nav-link" href="#">Pages</a>
                             <ol>
-                                <li><a href="blog-list-view.html">Blog list page</a></li>
+                                <li><a href="../blog-list-view/blog-list-view.html">Blog list page</a></li>
                                 <li><a href="../blog-details-view/blog-details-view.html">Blog details page</a></li>
                                 <li><a href="../error-page/error-page.html">Error-page</a></li>
                                 <li><a href="../coming-soon-page/coming-soon-page.html">Coming-Soon-page</a></li>
@@ -114,7 +174,7 @@
                             <a class="nav-link" href="#">Our Blog</a>
                             <ol>
                                 <li><a href="../blog-grid-view/blog-grid-view.html">Blog grid page</a></li>
-                                <li><a href="blog-list-view.html">Blog list page</a></li>
+                                <li><a href="../blog-list-view/blog-list-view.html">Blog list page</a></li>
                                 <li><a href="../blog-details-view/blog-details-view.html">Blog details page</a></li>
                             </ol>
                         </li>
@@ -160,7 +220,7 @@
             <div class="row">
                 <div class="col-lg-12 top-list">
                     <div class="row">
-                        <div class="col-lg-2 d-flex align-items-center">
+                        <div class="col-md-2 col-sm-12 d-flex align-items-center th-list">
                             <div class="th-links">
 
                                 <a href="#"><i class="fas fa-th"></i></a>
@@ -168,7 +228,7 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-6 select-list">
+                        <div class="col-md-6 col-sm-12 select-list">
                             <span>Sort By:</span>
                             <select name="" id="">
                                 <option value="">Name</option>
@@ -184,7 +244,7 @@
                             </select>
 
                         </div>
-                        <div class="col-lg-4 next">
+                        <div class="col-md-4 col-sm-12 next">
                             <span class="pages">Pages:</span>
                             <nav aria-label="Page navigation example">
                                 <ul class="pagination">
@@ -213,7 +273,7 @@
 
             <div class="blog-img-text-content">
                 <div class="row">
-                    <div class="col-lg-8 ">
+                    <div class="col-md-8 ">
                         <div class="blog-main">
                             <div class="blog-image">
                                 <img src="../assets/images/blogsingle_img.jpg" class="img-fluid" alt="">
@@ -288,7 +348,7 @@
 
 
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <ul class="nav nav-pills tab-main mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link tab-menu active" id="pills-home-tab" data-bs-toggle="pill"
@@ -599,7 +659,7 @@
     <section id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 footer-one">
+                <div class="col-lg-3 col-sm-6 footer-one">
                     <a href="#"><img src="../assets/images/footer-logo.png" class="img-fluid" alt=""></a>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's. unknown printer took a galley of type and scrambled it to make a type.</p>
@@ -611,7 +671,7 @@
                         <a href="#"><i class="fa fa-pinterest"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 footer-two">
+                <div class="col-lg-3 col-sm-6 footer-two">
                     <h3>Contact Us</h3>
                     <div class="address">
                         <div class="icon-add">
@@ -641,7 +701,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 footer-three">
+                <div class="col-lg-2 col-sm-6 footer-three">
                     <h3>Important Links</h3>
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -653,41 +713,41 @@
                     </ul>
 
                 </div>
-                <div class="col-lg-4 footer-four">
-                    <h3>Latest News</h3>
-                    <div class="footer-news">
-                        <div class="footer-news-img">
-                            <img src="../assets/images/latest_news_small.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="footer-news-info">
-                            <p>Nice Newest Construction Factory Work</p>
-                            <span>26 October 2017</span>
-                            <div class="footer-news-likes">
-                                <a href="#"><i class="fa fa-user"></i> By : Admin</a>
-                                <a href="#"><i class="fa fa-thumbs-up"></i> 2.5k likes</a>
-                            </div>
+                <div class="col-lg-4 col-sm-6 footer-four">
+                <h3>Latest News</h3>
+                <div class="footer-news">
+                    <div class="footer-news-img">
+                        <img src="../assets/images/latest_news_small.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="footer-news-info">
+                        <p>Nice Newest Construction Factory Work</p>
+                        <span>26 October 2017</span>
+                        <div class="footer-news-likes">
+                            <a href="#"><i class="fa fa-user"></i> By : Admin</a>
+                            <a href="#"><i class="fa fa-thumbs-up"></i> 2.5k likes</a>
                         </div>
                     </div>
-                    <div class="footer-news">
-                        <div class="footer-news-img">
-                            <img src="../assets/images/latest_news_small01.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="footer-news-info">
-                            <p>Nice Newest Construction Factory Work</p>
-                            <span>26 October 2017</span>
-                            <div class="footer-news-likes">
-                                <a href="#"><i class="fa fa-user"></i> By : Admin</a>
-                                <a href="#"><i class="fa fa-thumbs-up"></i> 2.5k likes</a>
-                            </div>
+                </div>
+                <div class="footer-news">
+                    <div class="footer-news-img">
+                        <img src="../assets/images/latest_news_small01.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="footer-news-info">
+                        <p>Nice Newest Construction Factory Work</p>
+                        <span>26 October 2017</span>
+                        <div class="footer-news-likes">
+                            <a href="#"><i class="fa fa-user"></i> By : Admin</a>
+                            <a href="#"><i class="fa fa-thumbs-up"></i> 2.5k likes</a>
                         </div>
                     </div>
                 </div>
             </div>
-
-
+            </div>
+            
         </div>
+        
     </section>
-    </div>
+    
     <!-- ========== footer section Ends here ========== -->
 
     <!-- ========== copyright section starts here  ========== -->

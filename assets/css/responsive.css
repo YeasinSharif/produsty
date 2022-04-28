@@ -1,4 +1,5 @@
 @media (min-width: 320px) and (max-width: 575.98px) {
+    /****************************** home page css starts here ******************************/
 
     .top-mid {
         transform: scaleX(1.1);
@@ -285,6 +286,199 @@
         font-size: 12px;
     }
 
+    /****************************** home page css ends here ******************************/
+
+
+    /****************************** about page css ends here ******************************/
+    .produsty-bg {
+        display: none;
+    }
+
+    .mission-bg {
+        display: none;
+    }
+
+    #about-bg {
+        height: 200px;
+    }
+
+    #about-bg h2 {
+        font-size: 30px;
+    }
+
+    .about-us-bg-items {
+        padding-top: 70px;
+    }
+
+    #about-produsty {
+        padding-top: 20px;
+    }
+
+    .produsty-text {
+        text-align: center;
+    }
+
+    .produsty-text h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .produsty-text p {
+        padding: 10px 0;
+    }
+
+    #our-mission {
+        padding-top: 20px;
+    }
+
+    .mission-text {
+        text-align: center;
+    }
+
+    .mission-text ul {
+        margin-left: 0px;
+    }
+
+    .mission-text ul li span {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    #our-team {
+        padding-top: 30px;
+        height: 740px;
+    }
+
+    .our-team-heading h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    #our-team .our-icons {
+        display: none;
+    }
+
+    /****************************** about page css ends here ******************************/
+
+    /****************************** blog list page css starts here ******************************/
+    .tags ul {
+        flex-wrap: wrap;
+    }
+
+    .th-list {
+        justify-content: center;
+    }
+
+    .select-list {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .next {
+        justify-content: center;
+    }
+
+    .select-list span {
+        font-size: 12px;
+    }
+
+    .select-list select {
+        padding: 8px 10px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .next .pages {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        line-height: 40px;
+    }
+
+    .pagination li a {
+        padding: 8px 10px;
+    }
+
+    #list-view {
+        padding-top: 20px;
+    }
+
+    .blog-image-text {
+        width: 280px;
+        transform: translateX(-50%);
+        background-color: #f1f1f1;
+        padding: 40px 10px 10px 10px;
+    }
+
+    .blog-image-text h3 {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    .blog-image-text ul li a {
+        font-size: 11px;
+    }
+
+    .blog-image-text ul {
+        flex-wrap: wrap;
+    }
+
+    .blog-image-text p {
+        padding: 5px 0;
+        font-size: 11px;
+    }
+
+    .blog-image-text .blog-text-button a {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .blog-main {
+        text-align: center;
+        margin-bottom: 205px;
+    }
+
+    .tab-main {
+        flex-wrap: nowrap;
+    }
+
+    .tab-text h5 {
+        font-size: 12px;
+    }
+
+    .tab-text-link a {
+        font-size: 12px;
+        padding-left: 0px;
+    }
+
+    .custom-tab-pane {
+        margin: 0;
+    }
+
+    .categories h5 {
+        margin-bottom: 10px;
+    }
+
+    .tags h5 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .tags ul li a {
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .video-attatch {
+        margin-top: 20px;
+    }
+
+    .blog-button-bottom {
+        margin-top: 15px;
+    }
+
+    /****************************** blog list page css ends here ******************************/
+
 
 
 
@@ -292,6 +486,8 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    /****************************** home page css starts here ******************************/
     #bottomheader ul {
         opacity: 1;
         visibility: visible;
@@ -523,6 +719,140 @@
         font-size: 11px;
     }
 
+    /****************************** home page css ends here ******************************/
+
+
+    /****************************** about us page css ends here ******************************/
+    .produsty-bg {
+        display: none;
+    }
+
+    #about-produsty {
+        padding-top: 30px;
+    }
+
+    .produsty-text p {
+        padding: 10px 0;
+    }
+
+    #our-mission {
+        padding-top: 30px;
+    }
+
+    .mission-bg {
+        display: none;
+    }
+
+    #our-team {
+        padding-top: 40px;
+    }
+
+    #about-bg {
+        height: 200px;
+    }
+
+    .about-us-bg-items {
+        padding-top: 70px;
+    }
+
+    #about-bg h2 {
+        font-size: 33px;
+    }
+
+    .produsty-text h2 {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+
+    .produsty-text {
+        text-align: center;
+    }
+
+    .mission-text h2 {
+        font-size: 32px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .mission-text p {
+        text-align: center;
+    }
+
+    .mission-text ul li span {
+        font-size: 13px;
+    }
+
+    .our-team-heading h2 {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+
+    #our-team {
+        height: 740px;
+    }
+
+    /****************************** about us page css ends here ******************************/
+
+    /****************************** blog list page css starts here ******************************/
+    .th-list {
+        justify-content: center;
+    }
+
+    .select-list {
+        text-align: center;
+    }
+
+    .next {
+        justify-content: center;
+    }
+
+    .select-list select {
+        margin-right: 10px;
+    }
+
+    .select-list {
+        padding: 15px 0;
+    }
+
+    .blog-image-text {
+        width: 450px;
+        padding: 50px 10px 20px 10px;
+        text-align: center;
+    }
+
+    .blog-image-text h3 {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .blog-image-text p {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .blog-image-text ul {
+        justify-content: center;
+    }
+
+    .blog-image-text .blog-text-button a {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .video-attatch img {
+        width: 100%;
+    }
+
+    .blog-button-bottom {
+        margin: 20px 0;
+    }
+
+    #footer {
+        margin-top: 30px;
+    }
+
+    /****************************** blog list page css ends here ******************************/
+
 
 
 
@@ -534,6 +864,8 @@
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    /****************************** home page css starts here ******************************/
     #topheader {
         font-size: 12px;
     }
@@ -630,6 +962,163 @@
         margin-top: 40px;
     }
 
+    /****************************** home page css starts here ******************************/
+
+
+    /****************************** about us page css starts here ******************************/
+    .produsty-bg {
+        display: none;
+    }
+
+    .produsty-text p {
+        padding: 10px 0;
+    }
+
+    #about-produsty {
+        padding-top: 20px;
+    }
+
+    #our-mission {
+        padding-top: 20px;
+    }
+
+    .mission-bg {
+        display: none;
+    }
+
+    #our-team {
+        padding-top: 50px;
+    }
+
+    #our-team .our-icons {
+        display: none;
+    }
+
+    .team-img {
+        height: 270px;
+    }
+
+    .team-info {
+        clip-path: polygon(0% 31%, 100% 8%, 100% 100%, 0% 100%);
+        position: relative;
+        top: -34px;
+    }
+
+    .team-info ul li {
+        padding: 0px;
+    }
+
+    .team-items.slick-center .team-info {
+        clip-path: polygon(0% 17%, 100% 0%, 100% 100%, 0% 100%);
+        top: -24px;
+    }
+
+    #our-team {
+        height: 670px;
+    }
+
+    #footer {
+        padding-top: 30px;
+    }
+
+    .footer-two h3,
+    .footer-three h3,
+    .footer-four h3 {
+        margin: 25px 0 25px 0;
+    }
+
+    .about-us-bg-items {
+        padding-top: 60px;
+    }
+
+    #about-bg {
+        height: 200px;
+    }
+
+    /****************************** about us page css starts here ******************************/
+
+    /****************************** blog list page css starts here ******************************/
+    .select-list {
+        text-align: start;
+    }
+
+    .blog-image-text {
+        width: 405px;
+        padding: 55px 10px 20px 10px;
+        text-align: center;
+    }
+
+    .blog-main {
+        margin-bottom: 205px;
+    }
+
+    .tags ul {
+        flex-wrap: wrap;
+    }
+
+    .pagination li a {
+        font-size: 10px;
+        padding: 10px 12px;
+    }
+
+    .select-list select {
+        padding: 10px 14px;
+        font-size: 11px;
+        margin-right: 0px;
+    }
+
+    .next .pages {
+        font-size: 12px;
+        padding: 0;
+        line-height: 40px;
+    }
+
+    .blog-img-text-content {
+        padding-top: 40px;
+    }
+
+    .blog-image-text h3 {
+        font-size: 14px;
+        margin: 0px 0;
+    }
+
+    .blog-image-text p {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .blog-image-text ul {
+        justify-content: center;
+    }
+
+    .blog-image-text .blog-text-button a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .tab-main .tab-menu {
+        font-size: 14px;
+        padding: 0px 12px 0px 0px;
+    }
+
+    .tab-text {
+        padding-left: 5px;
+    }
+
+    .tab-text h5 {
+        font-size: 11px;
+    }
+
+    .custom-tab-pane {
+        margin: 0;
+    }
+
+    .categories h5 {
+        margin-bottom: 15px;
+    }
+
+    /****************************** blog list page css ends here ******************************/
+
 
 
 
@@ -725,8 +1214,68 @@
         font-size: 12px;
     }
 
-
-
     /****************************** home page css ends here ******************************/
+
+
+
+
+    /****************************** about us page css ends here ******************************/
+    .mission-text ul {
+        margin-left: 0px;
+    }
+
+    .mission-text ul li span {
+        font-size: 12px;
+        padding-left: 3px;
+    }
+
+    .mission-bg img {
+        right: 65%;
+    }
+
+    .footer-news-info p {
+        font-size: 11px;
+    }
+
+    .produsty-bg img {
+        right: -26%;
+    }
+
+    .produsty-text p {
+        font-size: 14px;
+        padding: 10px 0;
+        line-height: 20px;
+    }
+
+    .produsty-text {
+        padding: 0 35px;
+    }
+
+    .produsty-bg img {
+        right: -108px;
+    }
+
+    /****************************** about us page css ends here ******************************/
+
+
+    /****************************** blog list page css starts here ******************************/
+    .select-list {
+        text-align: center;
+    }
+
+    .blog-image-text {
+        width: 550px;
+        padding: 80px 20px 30px 20px;
+    }
+
+    .blog-main {
+        margin-bottom: 205px;
+    }
+
+    .tags ul {
+        flex-wrap: wrap;
+    }
+
+    /****************************** blog list page css ends here ******************************/
 
 }
