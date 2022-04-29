@@ -401,6 +401,7 @@
 
     #list-view {
         padding-top: 20px;
+        overflow: hidden;
     }
 
     .blog-image-text {
@@ -478,6 +479,121 @@
     }
 
     /****************************** blog list page css ends here ******************************/
+
+
+    /****************************** blog details veiw page css starts here ******************************/
+    .leave-a-reply .blog-button-bottom {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .blogspot-description p {
+        padding: 10px 0;
+    }
+
+    .blogspot-right {
+        padding-left: 5px;
+    }
+
+    .blogspot-right h4 span {
+        display: block;
+        float: initial;
+        padding: 5px 0;
+    }
+
+    .blogspot-right p {
+        padding: 2px 0;
+    }
+
+    .blogspot-left img {
+        width: 50px;
+    }
+
+    .blogspot-right h4 {
+        font-size: 14px;
+    }
+
+    .blogspot-right h4 span {
+        font-size: 12px;
+    }
+
+    /****************************** blog details veiw page css ends here ******************************/
+
+    /****************************** error page css starts here ******************************/
+    #error {
+        height: 275px;
+    }
+
+    .error-text h1 {
+        font-size: 65px;
+        line-height: 80px;
+    }
+
+    .error-text h1:before {
+        width: 9px;
+        height: 27px;
+    }
+
+    /****************************** error page css ends here ******************************/
+
+
+    /****************************** comming soon page css starts here ******************************/
+    #comming-soon {
+        padding: 30px 0;
+        overflow: hidden;
+    }
+
+    .comming-soon-timer {
+        height: 80px;
+        width: 80px;
+        margin: 35px 30px;
+    }
+
+    .comming-soon-timer:before {
+        width: calc(100% + 20px);
+        left: -10px;
+    }
+
+    .comming-soon-timer:after {
+        height: calc(100% + 20px);
+        bottom: -10px;
+    }
+
+    .comming-soon-heading {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .timer-items h2 {
+        font-size: 24px;
+    }
+
+    .timer-items p {
+        font-size: 12px;
+    }
+
+    .comming-main {
+        margin: 20px 0;
+    }
+
+    .subscribe .input-group input {
+        height: 50px;
+    }
+
+    .subscribe .input-group span {
+        padding: 13px 14px;
+        margin-right: 45px;
+    }
+
+    .comming-soon-icons {
+        margin-top: 30px;
+    }
+
+    .subscribe .input-group {
+        width: 343px;
+    }
+
+    /****************************** comming soon page css ends here ******************************/
 
 
 
@@ -853,6 +969,76 @@
 
     /****************************** blog list page css ends here ******************************/
 
+    /****************************** error page css starts here ******************************/
+    #error {
+        height: 480px;
+    }
+
+    .error-text h1 {
+        font-size: 110px;
+        line-height: 150px;
+    }
+
+    .error-text h1:before {
+        width: 14px;
+    }
+
+    /****************************** error page css ends here ******************************/
+
+    /****************************** comming soon page css starts here ******************************/
+    #comming-soon {
+        padding: 30px 0;
+        overflow: hidden;
+    }
+
+    .comming-soon-timer {
+        height: 100px;
+        width: 100px;
+        margin: 40px 60px;
+    }
+
+    .comming-soon-timer:before {
+        width: calc(100% + 20px);
+        left: -10px;
+    }
+
+    .comming-soon-timer:after {
+        height: calc(100% + 20px);
+        bottom: -10px;
+    }
+
+    .comming-soon-heading {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .timer-items h2 {
+        font-size: 30px;
+    }
+
+    .timer-items p {
+        font-size: 16px;
+    }
+
+    .comming-main {
+        margin: 20px 0;
+    }
+
+    .subscribe .input-group input {
+        height: 50px;
+    }
+
+    .subscribe .input-group span {
+        padding: 13px 25px;
+        margin-right: 45px;
+    }
+
+    .comming-soon-icons {
+        margin-top: 30px;
+    }
+
+    /****************************** comming soon page css ends here ******************************/
+
 
 
 
@@ -1120,6 +1306,80 @@
     /****************************** blog list page css ends here ******************************/
 
 
+    /****************************** blog details veiw page css starts here ******************************/
+    #list-view {
+        padding-top: 40px;
+    }
+
+    .blogspot-description p {
+        padding: 10px 0;
+    }
+
+    .leave-a-reply .blog-button-bottom {
+        margin-bottom: 25px;
+    }
+
+    .video-attatch img {
+        width: 100%;
+    }
+
+    /****************************** blog details veiw page css ends here ******************************/
+
+    /****************************** error page css starts here ******************************/
+    #error {
+        height: 645px;
+    }
+
+    .error-text h1 {
+        font-size: 160px;
+        line-height: 175px;
+    }
+
+    /****************************** error page css ends here ******************************/
+
+
+
+    /****************************** comming soon page css starts here ******************************/
+    #comming-soon {
+        padding: 30px 0;
+    }
+
+    .comming-soon-timer {
+        height: 100px;
+        width: 100px;
+        margin: 0px 35px;
+    }
+
+    .comming-soon-timer:before {
+        width: calc(100% + 20px);
+        left: -10px;
+    }
+
+    .comming-soon-timer:after {
+        height: calc(100% + 20px);
+        bottom: -10px;
+    }
+
+    .comming-soon-heading {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .timer-items h2 {
+        font-size: 30px;
+    }
+
+    .timer-items p {
+        font-size: 16px;
+    }
+
+    .comming-main {
+        margin: 50px 0;
+    }
+
+    /****************************** comming soon page css ends here ******************************/
+
+
 
 
 
@@ -1277,5 +1537,33 @@
     }
 
     /****************************** blog list page css ends here ******************************/
+
+
+    /****************************** blog details veiw page css starts here ******************************/
+    .tab-main .tab-menu {
+        padding: 0px 15px 0px 12px;
+    }
+
+    /****************************** blog details veiw page css ends here ******************************/
+
+
+    /****************************** comming soon page css starts here ******************************/
+    .comming-soon-timer {
+        height: 130px;
+        width: 130px;
+        margin: 0px 45px;
+    }
+
+    .comming-soon-timer:before {
+        width: calc(100% + 25px);
+        left: -13px;
+    }
+
+    .comming-soon-timer:after {
+        height: calc(100% + 25px);
+        bottom: -13px;
+    }
+
+    /****************************** comming soon page css ends here ******************************/
 
 }
