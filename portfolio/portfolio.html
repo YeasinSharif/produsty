@@ -34,17 +34,17 @@
     <section id="topheader">
         <div class="container">
             <div class="row align-items-center">
-                <div class="top-left col-lg-3 ">
+                <div class="top-left col-lg-3 col-md-4">
                     <p>
                         <i class="fa fa-map-marker"></i> 1234, Park Street, New York, America
                     </p>
 
                 </div>
-                <div class="top-mid col-lg-6 text-center">
+                <div class="top-mid col-lg-6 col-md-4 text-center">
                     <p>Welcome to <span> PRODUSTRY </span></p>
 
                 </div>
-                <div class="top-right col-lg-3">
+                <div class="top-right col-lg-3 col-md-4">
                     <ul>
                         <li>
                             <a href="#">
@@ -77,16 +77,99 @@
             </div>
         </div>
     </section>
-    <!-- ========== top header starts here ========== -->
 
+    <!-- ========== top header starts here ========== -->
     <!-- ========== bottom header starts here========== -->
+
+    <!--mobile menu starts-->
+    <ul class="navbar-nav mobile-menu">
+        <li class="nav-item border-0 menu-custom">
+            <a href="#">MENU</a>
+            <span>
+                <button class="toggle-btn-mobile btn">
+                    <i class="far fa-times"></i>
+                </button>
+            </span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../about-us/about-us.html">About Us</a>
+        </li>
+
+
+
+        <li class="nav-item">
+            <a class="nav-link" href="#dropdown-list" data-bs-toggle="collapse">Pages <span class="nav-arrow"><i
+                        class="fas fa-chevron-right"></i></span></a>
+
+            <ul class="collapse" id="dropdown-list">
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="../blog-list-view/blog-list-view.html">Blog list page</a>
+                </li>
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="../blog-details-view/blog-details-view.html">Blog details page</a>
+                </li>
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="../error-page/error-page.html">Error-page</a>
+                </li>
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="../coming-soon-page/coming-soon-page.html">Coming-Soon-page</a>
+                </li>
+            </ul>
+        </li>
+
+
+
+
+        <li class="nav-item">
+            <a class="nav-link" href="portfolio/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#dropdown-list2" data-bs-toggle="collapse">Our Blog <span class="nav-arrow"><i
+                        class="fas fa-chevron-right"></i></span></a>
+
+            <ul class="collapse" id="dropdown-list2">
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="../blog-grid-view/blog-grid-view.html">Blog grid page</a>
+                </li>
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="../blog-list-view/blog-list-view.html">Blog list page</a>
+                </li>
+                <li class="nav-item border-0">
+                    <a class="nav-link" href="../blog-details-view/blog-details-view.html">Blog details page</a>
+                </li>
+            </ul>
+
+        </li>
+        <li class="nav-item border-0">
+            <a class="nav-link" href="../contact-us/contact.html">Contact Us</a>
+
+        </li>
+
+        <div class="footer-one text-center mt-3">
+                    
+                    <div class="footer-icons mobile-menu-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+
+    </ul>
+
+    <!--mobile menu ends-->
+
     <section id="bottomheader">
-        <nav class="navbar navbar-expand-lg ">
+
+        <nav class="navbar navbar-expand-md ">
             <div class="container">
-                <a class="navbar-brand toggle-brand" href="#"><img src="../assets/images/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand toggle-brand" href="#"><img src="../assets/images/logo.png" class="img-fluid"
+                        alt=""></a>
+                <button class="toggle-btn-mobile btn">
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -107,7 +190,7 @@
                             </ol>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="portfolio/portfolio.html">Portfolio</a>
                         </li>
                         <li>
                             <a class="nav-link" href="#">Our Blog</a>
@@ -118,7 +201,7 @@
                             </ol>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="../contact-us/contact.html">Contact Us</a>
                         </li>
 
 
@@ -159,7 +242,7 @@
 
 
             <div class="row flex-wrap">
-                <div class="col-lg-3 portfolio-item">
+                <div class="col-lg-3 col-sm-4 portfolio-item">
                     <div class="portfolio-img portfolio-img-custom">
                         <img src="../assets/images/work01.jpg" class="img-fluid" alt="">
                         <div class="portfolio-overlay">
@@ -168,7 +251,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 portfolio-item">
+                <div class="col-lg-3 col-sm-4 portfolio-item">
                     <div class="portfolio-img  portfolio-img-custom">
                         <img src="../assets/images/work02.jpg" class="img-fluid" alt="">
                         <div class="portfolio-overlay">
@@ -177,7 +260,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 portfolio-item">
+                <div class="col-lg-3 col-sm-4 portfolio-item">
                     <div class="portfolio-img portfolio-img-custom">
                         <img src="../assets/images/work03.jpg" class="img-fluid" alt="">
                         <div class="portfolio-overlay">
@@ -186,7 +269,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 portfolio-item">
+                <div class="col-lg-3 col-sm-4 portfolio-item">
                     <div class="portfolio-img portfolio-img-custom">
                         <img src="../assets/images/work04.jpg" class="img-fluid" alt="">
                         <div class="portfolio-overlay">
@@ -195,7 +278,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 portfolio-item">
+                <div class="col-lg-3 col-sm-4 portfolio-item">
                     <div class="portfolio-img portfolio-img-custom">
                         <img src="../assets/images/work02.jpg" class="img-fluid" alt="">
                         <div class="portfolio-overlay">
@@ -204,7 +287,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 portfolio-item">
+                <div class="col-lg-3 col-sm-4 portfolio-item">
                     <div class="portfolio-img portfolio-img-custom">
                         <img src="../assets/images/work01.jpg" class="img-fluid" alt="">
                         <div class="portfolio-overlay">
@@ -213,7 +296,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 portfolio-item">
+                <div class="col-lg-3 col-sm-4 portfolio-item">
                     <div class="portfolio-img portfolio-img-custom">
                         <img src="../assets/images/work02.jpg" class="img-fluid" alt="">
                         <div class="portfolio-overlay">
@@ -222,9 +305,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 portfolio-item">
+                <div class="col-lg-3 col-sm-4 portfolio-item">
                     <div class="portfolio-img portfolio-img-custom">
                         <img src="../assets/images/work03.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-overlay">
+                            <h4>Renderring</h4>
+                            <p>Building/Architect</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 portfolio-item portfolio-item-extra ">
+                    <div class="portfolio-img portfolio-img-custom">
+                        <img src="../assets/images/work05.jpg" class="img-fluid" alt="">
                         <div class="portfolio-overlay">
                             <h4>Renderring</h4>
                             <p>Building/Architect</p>
@@ -391,96 +483,95 @@
     <!-- ========== footer section Starts here  ========== -->
     <div class="bottom-footer">
         <section id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 footer-one">
-                        <a href="#"><img src="../assets/images/footer-logo.png" class="img-fluid" alt=""></a>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been
-                            the industry's. unknown printer took a galley of type and scrambled it to make a type.</p>
-                        <div class="footer-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 footer-one">
+                    <a href="#"><img src="../assets/images/footer-logo.png" class="img-fluid" alt=""></a>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's. unknown printer took a galley of type and scrambled it to make a type.</p>
+                    <div class="footer-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 footer-two">
+                    <h3>Contact Us</h3>
+                    <div class="address">
+                        <div class="icon-add">
+                            <a href="#"><i class="fa fa-map-marker"></i></a>
+                        </div>
+                        <div class="info-add">
+                            <a href="#">1234, Park Street Avenue,</a>
+                            <a href="#">NewYork City North America.</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 footer-two">
-                        <h3>Contact Us</h3>
-                        <div class="address">
-                            <div class="icon-add">
-                                <a href="#"><i class="fa fa-map-marker"></i></a>
-                            </div>
-                            <div class="info-add">
-                                <a href="#">1234, Park Street Avenue,</a>
-                                <a href="#">NewYork City North America.</a>
-                            </div>
+                    <div class="address address-mid">
+                        <div class="icon-add">
+                            <a href="#"><i class="fa fa-phone"></i></a>
                         </div>
-                        <div class="address address-mid">
-                            <div class="icon-add">
-                                <a href="#"><i class="fa fa-phone"></i></a>
-                            </div>
-                            <div class="info-add">
-                                <a href="#">1234, Park Street Avenue,</a>
-                                <a href="#">NewYork City North America.</a>
-                            </div>
-                        </div>
-                        <div class="address">
-                            <div class="icon-add">
-                                <a href="#"><i class="fa fa-envelope"></i></a>
-                            </div>
-                            <div class="info-add">
-                                <a href="#">1234, Park Street Avenue,</a>
-                                <a href="#">NewYork City North America.</a>
-                            </div>
+                        <div class="info-add">
+                            <a href="#">1234, Park Street Avenue,</a>
+                            <a href="#">NewYork City North America.</a>
                         </div>
                     </div>
-                    <div class="col-lg-2 footer-three">
-                        <h3>Important Links</h3>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About US</a></li>
-                            <li><a href="#">Our work</a></li>
-                            <li><a href="#">Our Blogs</a></li>
-                            <li><a href="#">Our Pages</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
+                    <div class="address">
+                        <div class="icon-add">
+                            <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                        <div class="info-add">
+                            <a href="#">1234, Park Street Avenue,</a>
+                            <a href="#">NewYork City North America.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 footer-three">
+                    <h3>Important Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About US</a></li>
+                        <li><a href="#">Our work</a></li>
+                        <li><a href="#">Our Blogs</a></li>
+                        <li><a href="#">Our Pages</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
 
-                    </div>
-                    <div class="col-lg-4 footer-four">
-                        <h3>Latest News</h3>
-                        <div class="footer-news">
-                            <div class="footer-news-img">
-                                <img src="../assets/images/latest_news_small.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="footer-news-info">
-                                <p>Nice Newest Construction Factory Work</p>
-                                <span>26 October 2017</span>
-                                <div class="footer-news-likes">
-                                    <a href="#"><i class="fa fa-user"></i> By : Admin</a>
-                                    <a href="#"><i class="fa fa-thumbs-up"></i> 2.5k likes</a>
-                                </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 footer-four">
+                    <h3>Latest News</h3>
+                    <div class="footer-news">
+                        <div class="footer-news-img">
+                            <img src="../assets/images/latest_news_small.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="footer-news-info">
+                            <p>Nice Newest Construction Factory Work</p>
+                            <span>26 October 2017</span>
+                            <div class="footer-news-likes">
+                                <a href="#"><i class="fa fa-user"></i> By : Admin</a>
+                                <a href="#"><i class="fa fa-thumbs-up"></i> 2.5k likes</a>
                             </div>
                         </div>
-                        <div class="footer-news">
-                            <div class="footer-news-img">
-                                <img src="../assets/images/latest_news_small01.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="footer-news-info">
-                                <p>Nice Newest Construction Factory Work</p>
-                                <span>26 October 2017</span>
-                                <div class="footer-news-likes">
-                                    <a href="#"><i class="fa fa-user"></i> By : Admin</a>
-                                    <a href="#"><i class="fa fa-thumbs-up"></i> 2.5k likes</a>
-                                </div>
+                    </div>
+                    <div class="footer-news">
+                        <div class="footer-news-img">
+                            <img src="../assets/images/latest_news_small01.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="footer-news-info">
+                            <p>Nice Newest Construction Factory Work</p>
+                            <span>26 October 2017</span>
+                            <div class="footer-news-likes">
+                                <a href="#"><i class="fa fa-user"></i> By : Admin</a>
+                                <a href="#"><i class="fa fa-thumbs-up"></i> 2.5k likes</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-    </div>
+
+        </div>
+
     </section>
     </div>
     <!-- ========== footer section Ends here ========== -->

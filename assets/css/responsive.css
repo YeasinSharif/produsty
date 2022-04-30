@@ -526,12 +526,13 @@
 
     .error-text h1 {
         font-size: 65px;
-        line-height: 80px;
+        line-height: 66px;
     }
 
     .error-text h1:before {
-        width: 9px;
-        height: 27px;
+        width: 6px;
+        height: 18px;
+        transform: translateX(-60%);
     }
 
     /****************************** error page css ends here ******************************/
@@ -594,6 +595,84 @@
     }
 
     /****************************** comming soon page css ends here ******************************/
+
+    /****************************** portfolio page css starts here ******************************/
+    .portfolio-item-extra {
+        display: block;
+    }
+
+    .animated-button a {
+        padding: 13px 15px;
+        font-size: 14px;
+    }
+
+    .blog-text-custom {
+        padding: 15px 10px;
+        padding-top: 95px;
+    }
+
+    .blog-text-custom h4 {
+        font-size: 16px;
+    }
+
+    .blog-text-custom ul li a {
+        font-size: 13px;
+    }
+
+    .blog-button-custom a {
+        padding: 13px 18px;
+        font-size: 12px;
+    }
+
+    .blog-content-custom {
+        height: 540px;
+    }
+
+    /****************************** portfolio page css ends here ******************************/
+
+    /****************************** contact us page css ends here ******************************/
+    .news-form {
+        background-image: none;
+        margin-top: 15px;
+    }
+
+    .contact-us-desc p:before {
+        display: none;
+    }
+
+    #newsletter {
+        overflow: hidden;
+        padding-top: 40px;
+    }
+
+    .address-box {
+        border-bottom: 2px solid #c4c4c4;
+        margin-top: 15px;
+    }
+
+    .news-heading h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .news-heading p {
+        font-size: 14px;
+    }
+
+    #contact-us-icon {
+        padding: 20px 0;
+    }
+
+    #map iframe {
+        height: 250px;
+    }
+
+
+    /****************************** contact us page css ends here ******************************/
+
+    .mobile-menu {
+        display: block;
+    }
 
 
 
@@ -980,7 +1059,16 @@
     }
 
     .error-text h1:before {
-        width: 14px;
+        width: 12px;
+        height: 29px;
+    }
+
+    .error-text {
+        transform: translateX(-44%);
+    }
+
+    .error-text h1 {
+        line-height: 109px;
     }
 
     /****************************** error page css ends here ******************************/
@@ -1038,6 +1126,94 @@
     }
 
     /****************************** comming soon page css ends here ******************************/
+
+    /****************************** portfolio page css starts here ******************************/
+    .portfolio-item-extra {
+        display: block;
+    }
+
+    .portfolio-overlay {
+        padding-top: 30px;
+    }
+
+    /****************************** portfolio page css ends here ******************************/
+
+
+    /****************************** blog details page css ends here ******************************/
+    .blog-text-custom {
+        padding: 15px 8px;
+        padding-top: 95px;
+    }
+
+    .blog-text-custom h4 {
+        font-size: 13px;
+    }
+
+    .blog-text-custom ul li a {
+        font-size: 11px;
+    }
+
+    .blog-text-custom p {
+        font-size: 13px;
+        padding: 8px 0;
+    }
+
+    .blog-button-custom a {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .blog-content-custom {
+        height: 455px;
+    }
+
+    /****************************** blog details page css ends here ******************************/
+
+    /****************************** contact us page css ends here ******************************/
+    .news-form {
+        background-image: none;
+        margin-top: 15px;
+    }
+
+    .contact-us-desc p:before {
+        display: none;
+    }
+
+    #newsletter {
+        overflow: hidden;
+        padding-top: 40px;
+    }
+
+    .address-box {
+        border-bottom: 2px solid #c4c4c4;
+        margin-top: 15px;
+    }
+
+    .news-heading h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .news-heading p {
+        font-size: 14px;
+    }
+
+    #contact-us-icon {
+        padding: 20px 0;
+    }
+
+    #map iframe {
+        height: 300px;
+    }
+
+
+    /****************************** contact us page css ends here ******************************/
+
+
+
+    .mobile-menu {
+        display: block;
+    }
 
 
 
@@ -1332,7 +1508,16 @@
 
     .error-text h1 {
         font-size: 160px;
-        line-height: 175px;
+        line-height: 162px;
+    }
+
+    .error-text h1:before {
+        height: 43px;
+        width: 15px;
+    }
+
+    .error-text {
+        transform: translateX(-44%);
     }
 
     /****************************** error page css ends here ******************************/
@@ -1378,6 +1563,67 @@
     }
 
     /****************************** comming soon page css ends here ******************************/
+
+
+    /****************************** portfolio page css starts here ******************************/
+    .portfolio-item-extra {
+        display: block;
+    }
+
+    .portfolio-overlay {
+        padding-top: 60px;
+    }
+
+    /****************************** portfolio page css ends here ******************************/
+
+
+    /****************************** blog grid  page css starts here ******************************/
+
+
+    .blog-text-custom h4 {
+        font-size: 16px;
+    }
+
+    .blog-text-custom ul li a {
+        font-size: 12px;
+    }
+
+    .blog-button-custom a {
+        padding: 12px 15px;
+    }
+
+    /****************************** blog grid  page css ends here ******************************/
+
+
+    /****************************** contact us page css ends here ******************************/
+    .news-form form {
+        width: 310px;
+    }
+
+    .contact-us-desc p:before {
+        display: none;
+    }
+
+    #newsletter {
+        overflow: hidden;
+        padding-top: 40px;
+    }
+
+    .address-box {
+        border-bottom: 2px solid #c4c4c4;
+        margin-top: 15px;
+    }
+
+    .news-heading h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .news-heading p {
+        font-size: 14px;
+    }
+
+    /****************************** contact us page css ends here ******************************/
 
 
 
@@ -1564,6 +1810,69 @@
         bottom: -13px;
     }
 
+
     /****************************** comming soon page css ends here ******************************/
+
+
+    /****************************** error page css ends here ******************************/
+    .error-text {
+        left: 251px;
+        transform: translateX(-0%);
+    }
+
+    #error {
+        height: min-content;
+    }
+
+    /****************************** error page css ends here ******************************/
+
+
+    /****************************** blog grid view page css ends here ******************************/
+    .blog-text-custom h4 {
+        font-size: 16px;
+    }
+
+
+
+    .blog-text-custom ul li a {
+
+        font-size: 12px;
+    }
+
+    #ourblog {
+        padding-top: 40px;
+    }
+
+    .blog-text-custom {
+        padding: 30px 15px;
+        padding-top: 95px;
+    }
+
+    #footer {
+        margin-top: 50px;
+    }
+
+    .blog-content-custom {
+        height: 562px;
+    }
+
+    /****************************** blog grid view page css ends here ******************************/
+
+
+    /****************************** contact us page css ends here ******************************/
+    .contact-us-desc p,
+    .contact-us-desc p a {
+        font-size: 13px;
+    }
+
+    #map iframe {
+        height: 390px;
+    }
+
+    #newsletter {
+        padding-top: 45px;
+    }
+
+    /****************************** contact us page css ends here ******************************/
 
 }

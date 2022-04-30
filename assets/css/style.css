@@ -362,6 +362,7 @@ a:hover {
     transition: var(--transition-fast);
     left: -350px;
     top: 0;
+    display: none;
 }
 
 .mobile-menu li {
@@ -391,6 +392,36 @@ a:hover {
 
 .mobile-menu li a:hover {
     color: var(--text-clr);
+}
+
+.menu-custom {
+    background-color: var(--text-clr);
+    margin: 15px 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu-custom a {
+    color: var(--secondary-clr) !important;
+    display: inline-block;
+}
+
+.menu-custom span button {
+    display: inline-block;
+    line-height: 0;
+}
+
+.menu-custom span {
+    float: right;
+}
+
+.menu-custom span button i {
+    font-size: 21px;
+    line-height: 10px;
+}
+
+.mobile-menu-icons a {
+    margin: 0 15px;
 }
 
 /* mobile menu css ends here */
@@ -2899,6 +2930,11 @@ a:hover {
     margin-top: 20px;
 }
 
+.portfolio-item-extra {
+    display: none;
+}
+
+
 /****************************** portfolio page css ends here ******************************/
 
 
@@ -3003,6 +3039,20 @@ a:hover {
 .blog-content-custom .blog-img-custom {
     position: relative;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    z-index: 50;
+}
+
+.blog-text-custom h4 {
+    font-size: 18px;
+    color: var(--secondary-clr);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.blog-content-custom {
+    overflow: hidden;
+    height: 602px;
+    margin-bottom: 20px;
 }
 
 /* our blog section ends here */
