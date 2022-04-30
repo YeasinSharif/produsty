@@ -521,7 +521,7 @@
 
     /****************************** error page css starts here ******************************/
     #error {
-        height: 275px;
+        height: min-content;
     }
 
     .error-text h1 {
