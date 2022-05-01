@@ -277,15 +277,7 @@ $(function () {
 
 
 })
-// coming soon js 
-    
-    $('.comming-main').countdown('2023/01/02', function(event) {
-		var $this = $(this);
-		$this.find('#day').html(event.strftime('<span>%D</span>'));
-		$this.find('#hour').html(event.strftime('<span>%H</span>'));
-		$this.find('#month').html(event.strftime('<span>%M</span>'));
-		$this.find('#second').html(event.strftime('<span>%S</span>'));
-	});
+
 
 
 
@@ -301,6 +293,16 @@ $(function () {
    }) 
 
    /* fixed menu */
+   /* comming soon js */
+    
+    $('.comming-main').countdown('2023/01/02', function(event) {
+		var $this = $(this);
+		$this.find('#day').html(event.strftime('<span>%D</span>'));
+		$this.find('#hour').html(event.strftime('<span>%H</span>'));
+		$this.find('#month').html(event.strftime('<span>%M</span>'));
+		$this.find('#second').html(event.strftime('<span>%S</span>'));
+	});
+  /* comming soon js */
 
    
       
