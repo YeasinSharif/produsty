@@ -5,6 +5,8 @@ $(function () {
     $('.toggle-navbar').toggleClass('open');
   })
 
+  
+
 
 
 
@@ -18,7 +20,7 @@ $(function () {
     nextArrow: $('.our-arrow-r'),
     dots: false,
     speed: 300,
-    autoplay: false,
+    autoplay: true,
     fade: false,
     centerMode: true,
     centerPadding: '0px',
@@ -50,13 +52,14 @@ $(function () {
   });
   /* our blog slider */
 
+
   /* banner slider */
 
   $('.banner-slider').slick({
     prevArrow: '<p class="banner-arrow-l"><span class="banner-icons "><a ><i class="fa fa-chevron-left prv-arrow"></i></a></span></p>',
     nextArrow: '<p class="banner-arrow-r"><span class="banner-icons "><a ><i class="fa fa-chevron-right nxt-arrow"></i></a></span></p>',
     dots: false,
-    autoplay: false,
+    autoplay: true,
     speed: 1000,
     fade: true,
 
@@ -71,7 +74,7 @@ $(function () {
   $('.service-slider').slick({
     infinite: true,
     slidesToShow: 3,
-    autoplay: false,
+    autoplay: true,
     slidesToScroll: 1,
     arrows: false,
     responsive: [{
@@ -110,7 +113,7 @@ $(function () {
   $('.portfolio-slider').slick({
     infinite: true,
     slidesToShow: 4,
-    autoplay: false,
+    autoplay: true,
     slidesToScroll: 1,
     prevArrow: $('.portfolio-arrow-l'),
     nextArrow: $('.portfolio-arrow-r'),
@@ -204,7 +207,7 @@ $(function () {
   $('.team-slider').slick({
     infinite: true,
     slidesToShow: 3,
-    autoplay: false,
+    autoplay: true,
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: '0px',
@@ -247,6 +250,26 @@ $(function () {
   }); 
   /* mobile menu js ends here */
 
+  
+
+
+
+
+
+/* counter up jus*/
+	$('.counter_number').counterUp({
+		time: 3000
+	});
+  /* counter up js */
+ 
+
+  
+
+  
+
+
+   
+    
 
 
 
@@ -254,19 +277,30 @@ $(function () {
 
 
 })
+// coming soon js 
+    
+    $('.comming-main').countdown('2023/01/02', function(event) {
+		var $this = $(this);
+		$this.find('#day').html(event.strftime('<span>%D</span>'));
+		$this.find('#hour').html(event.strftime('<span>%H</span>'));
+		$this.find('#month').html(event.strftime('<span>%M</span>'));
+		$this.find('#second').html(event.strftime('<span>%S</span>'));
+	});
+
 
 
 
             /*fixed menu*/
 
- /*  $(window).on('scroll', function(){
+  $(window).on('scroll', function(){
        if ($(window).scrollTop() > $('#bottomheader').height()){
            $('#bottomheader').addClass('fixed-menu')
        }else {
            $('#bottomheader').removeClass('fixed-menu')
        }
-   }) */
+   }) 
 
    /* fixed menu */
 
+   
       

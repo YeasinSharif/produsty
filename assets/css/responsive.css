@@ -31,7 +31,16 @@
     }
 
     .mobile-menu {
-        width: 240px;
+        width: 270px;
+    }
+
+
+    .mobile-menu-icons a {
+        margin: 0 5px !important;
+    }
+
+    .nav-tabs {
+        justify-content: center;
     }
 
     .top-mid p {
@@ -817,10 +826,16 @@
         padding: 20px 0;
     }
 
-    .tabs button a {
-        margin-right: 29px;
-        margin-left: 29px;
+    .nav-tabs {
+        justify-content: center;
     }
+
+    .tabs button a {
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+
 
     #portfolio .portfolio-arrow-l {
         display: none !important;
